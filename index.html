@@ -1,14 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="icon.png">
-    <title>go</title>
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            float: left;
+            display:block;
+            width: 150px;
+            height: 200px;
+            margin-left: 100px;
+            text-align: left;
+
+            font-size: 16px;
+            color:black;
+        }
+        .head{
+
+            width: 1000px;
+            text-align: center;
+            margin: 50px auto;
+        }
+        input{
+            color: darkorange;
+            padding-left: 10px;
+            display: inline-block;
+            height: 30px;
+            width: 200px;
+            outline: none;
+            border: 1px solid #eeeeee;
+
+        }
+        button{
+             margin-top: 20px;
+            outline: none;
+            border: none;
+            display: inline-block;
+            background: white;
+            width: 60px;
+            height: 30px;
+            border: 1px solid deepskyblue;
+            border-radius: 10px;
+            color: gold;
+        }
+        h1{
+            margin-bottom: 30px;
+        }
+        .container{
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 1000px;
+
+            text-align: center;
+        }
+        .btn{
+            width: 120px;
+        }
+    </style>
 </head>
 <body>
-<dsdsd>dsadsa </dsdsd>
+<div class="head">
+    <h1 >天气预报</h1>
+<input type="text" id="input1">
+
+    <br/>
+<button id="ipserch">地名搜索</button>
+<button id="ipserch2">IP搜索</button>
+<button id="ipserch3">景点搜索</button>
+    <button id="ipserch4">邮编搜索</button>
+    <button id="ipserch5">经纬搜索</button>
+    <br/>
+    <button id="ipserch6" class="btn">查询24小时预报</button>
+    <button id="ipserch7" class="btn">查询未来15天预报</button>
+    <button id="ipserch8" class="btn">查询历史天气</button>
+    <button id="ipserch9" class="btn">查询地名ID</button>
+</div>
+ <div class="container"></div>
 </body>
+<script type="text/javascript"  src="tianqiyubao.js" ></script>
 </html>
