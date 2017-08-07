@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+
+    <style>
+        .left{
+            width:270px;
+            float: left;
+            padding: 30px;
+            border: 2px solid aqua;
+            overflow: hidden;
+
+        }
+        .title{
+            display: block;
+            width:250px;
+            height: 30px;
+            padding: 5px;
+        }
+        .text{
+            height: 300px;
+            width: 252px;
+            padding: 5px;
+            border: 1px solid deepskyblue;
+        }
+        .creat{
+            display: inline-block;
+            height: 30px;
+            width: 50px;
+            background:#f60;
+
+            border: 2px solid #ff6600;
+            border-radius: 10px;
+
+            margin-left: 200px;
+
+        }
+        .right{
+            width: 40%;
+            float: right;
+            padding: 10px;
+            border: 2px solid aqua;
+            overflow: auto;
+            height: 500px;
+
+        }
+        .hit{
+            text-align: center;
+            margin-bottom:10px;
+        }
+        .right div{
+            border: 1px solid sienna;
+            font-size: 8px;
+            padding: 0;
+            margin:10px 0px 0 10px;
+            float: left;
+            width: 45%;
+        }
+        .right div h6{
+            margin: 0;
+            padding: 0;
+        }
+        .right button{
+            float: right;
+            display: inline-block;
+            font-size: 5px;
+            width: 40px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="left">
+   <div>
+       <input type="text" placeholder="输入标题" class="title">
+       <textarea class="text"></textarea>
+       <br/>
+       <button class="creat">保存</button>
+   </div>
+</div>
+<div class="right">
+     <h2 class="hit">历史记录</h2>
+    <hr/>
+</div>
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+<script src="EasyClub.js"></script>
+</html>

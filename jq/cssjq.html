@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        .content{
+            width: 630px;
+            height:200px;
+            background: blue;
+            position: relative;
+            margin:0 auto;
+
+        }
+        .content img{
+            float: left;
+            width: 180px;
+            height:200px;
+            position: absolute;
+            left: -60px;
+        }
+        .content .active{
+            width: 180px;
+            left: 0;
+        }
+        .content li{
+            position: relative;
+            float: left;
+            height: 200px;
+            width: 90px;
+            overflow: hidden;
+            list-style: none;
+        }
+
+        img{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<ul class="content">
+    <li class="active"><img src="0.jpg" alt="" class="active"></li>
+    <li><img src="1.jpg" alt=""></li>
+    <li><img src="2.jpg" alt=""></li>
+    <li><img src="3.jpg" alt=""></li>
+    <li><img src="4.jpg" alt=""></li>
+    <li><img src="5.jpg" alt=""></li>
+</ul>
+
+</body>
+<script src="csss.js"></script>
+</html>
