@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .ul{
+        width: 200px;
+        margin: 100px auto;
+        position: relative;
+        animation: rotate 5s infinite ;
+        transform-style: preserve-3d;
+
+
+    }
+    .ul>li{
+        height: 200px;
+        width:200px;
+        background: yellow;
+        position: absolute;
+        list-style:none;
+        font-size: 100px;
+        text-align: center;
+        line-height: 200px;
+        opacity: 0.5;
+
+    }
+    .ul>li:first-child{
+        background: #ac6dff;
+        transform:  translateZ(100px);
+    }
+    .ul>li:nth-child(2){
+        background: #90ff45;
+        transform:  translateX(-100px) rotateY(-90deg);
+    }
+    .ul>li:nth-child(3){
+        background: #ff67c7;
+
+        transform:  translateX(100px) rotateY(90deg);
+    }
+    .ul>li:nth-child(4){
+        background: #5affff;
+        transform:  translateY(100px) rotateX(-90deg);
+     }
+    .ul>li:nth-child(5){
+        background: #ffa31f;
+        transform:  translateY(-100px) rotateX(90deg);
+      }
+    .ul>li:nth-child(6){
+        transform:  translateZ(-100px) rotateY(-180deg);
+        background: #22ff84;
+       }
+
+    .ul:hover>li:first-child{
+        background: #ac6dff;
+        transform:  translateZ(150px);
+    }
+    .ul:hover>li:nth-child(2){
+        background: #90ff45;
+        transform:  translateX(-150px) rotateY(-90deg);
+    }
+    .ul:hover>li:nth-child(3){
+        background: #ff67c7;
+
+        transform:  translateX(150px) rotateY(90deg);
+    }
+    .ul:hover>li:nth-child(4){
+        background: #5affff;
+        transform:  translateY(150px) rotateX(-90deg);
+    }
+    .ul:hover>li:nth-child(5){
+        background: #ffa31f;
+        transform:  translateY(-150px) rotateX(90deg);
+    }
+    .ul:hover>li:nth-child(6){
+        transform:  translateZ(-150px) rotateY(-180deg);
+        background: #22ff84;
+    }
+   @keyframes rotate {
+       100%{
+           transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+
+       }
+
+   }
+  .ul2{
+      height: 100px;
+      width:100px;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      list-style:none;
+      font-size: 50px;
+      text-align: center;
+      line-height: 100px;
+      transform-style: preserve-3d;
+  }
+  .ul2>li{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+  }
+    .ul2>li:first-child{
+        background: url("魔方.png");
+        background-size:100%;
+        transform:  translateZ(50px);
+    }
+    .ul2>li:nth-child(2){
+        background: url("魔方2.png");
+        background-size:100%;
+        transform:  translateX(-50px) rotateY(-90deg);
+    }
+    .ul2>li:nth-child(3){
+        background: url("魔方3.png");
+        background-size:100%;
+        transform:  translateX(50px) rotateY(90deg);
+    }
+    .ul2>li:nth-child(4){
+        background: url("魔方4.png");
+        background-size:100%;
+        transform:  translateY(50px) rotateX(-90deg);
+    }
+    .ul2>li:nth-child(5){
+        background: url("魔方5.png");
+        background-size:100%;
+        transform:  translateY(-50px) rotateX(90deg);
+    }
+    .ul2>li:nth-child(6){
+        transform:  translateZ(-50px) rotateY(-180deg);
+        background: url("魔方6.png");
+        background-size:100%;
+    }
+
+
+</style>
+<body>
+<ul class="ul">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <ul class="ul2">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</ul>
+</body>
+</html>
