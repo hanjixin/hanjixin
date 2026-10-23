@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="./profile-pet.gif" width="100%" alt="一只来回溜达、甩尾巴、眨眼并追逐萤火虫的像素小猫。" />
+</p>
+
+<p align="center">
   <img src="./profile-hero.svg" width="100%" alt="hanjixin — Agents, runtimes, and things worth building." />
 </p>
 
@@ -14,9 +18,5 @@
     <td width="50%"><a href="https://github.com/hanjixin/agent-framework-book"><img src="./profile-book.svg" width="100%" alt="Agent Framework Book · 构建 Agent" /></a></td>
   </tr>
 </table>
-
-<p align="center">
-  <img src="./profile-pet.gif" width="100%" alt="一只来回溜达、甩尾巴、眨眼并追逐萤火虫的像素小猫。" />
-</p>
 
 <p align="right"><a href="https://github.com/hanjixin?tab=repositories"><sub>More experiments ↗</sub></a></p>
