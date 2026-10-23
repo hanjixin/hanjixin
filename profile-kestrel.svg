@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="250" viewBox="0 0 590 250" role="img" aria-labelledby="title desc">
+  <title id="title">Kestrel</title>
+  <desc id="desc">V8 meets Rust. Exploring what a JavaScript runtime can be. Built with Rust / V8 / Cranelift.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111e27"/><stop offset="1" stop-color="#0c131c"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="589" height="249" rx="16" fill="url(#bg)" stroke="#2b3c46"/>
+  <path d="M27 1h55" stroke="#8ed8ff" stroke-width="2"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="28" y="38" font-family="Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#8ed8ff">02 / JAVASCRIPT RUNTIME</text>
+    <text x="27" y="91" font-size="36" font-weight="650" letter-spacing="-.8" fill="#edf6fa">Kestrel</text>
+    <text x="29" y="132" font-size="19" fill="#a2b5c3">V8 meets Rust. Exploring what</text>
+    <text x="29" y="160" font-size="19" fill="#a2b5c3">a JavaScript runtime can be.</text>
+    <path d="M29 185h532" stroke="#263640"/>
+    <circle cx="34" cy="216" r="4" fill="#8ed8ff"/>
+    <text x="47" y="221" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#bacbd5">Rust / V8 / Cranelift</text>
+    <text x="559" y="223" text-anchor="end" font-size="24" fill="#8ed8ff">↗</text>
+  </g>
+  <g transform="translate(505 53)" fill="none" stroke="#8ed8ff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity=".7"><path d="M7 30 22 8l-1 14 22-8-15 22 1-14-22 8Z"/></g>
+</svg>

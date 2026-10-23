@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">hanjixin — Agents, runtimes, and things worth building.</title>
+  <desc id="desc">An original dark terminal inspired banner with mint orbital paths connecting agents, runtimes and tools. Motion respects reduced motion preferences.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b24"/><stop offset="1" stop-color="#0a1018"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#6df0c2" stop-opacity=".10"/><stop offset="1" stop-color="#6df0c2" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9bb8c5" stroke-opacity=".055"/></pattern>
+    <linearGradient id="ink"><stop stop-color="#edfff5"/><stop offset="1" stop-color="#b5f5d7"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="458" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    .orbit { transform-origin: 940px 227px; animation: orbit 45s linear infinite; }
+    .cursor { animation: blink 1.8s steps(1) infinite; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes blink { 50% { opacity: .15; } }
+    @media (prefers-reduced-motion: reduce) { .orbit, .cursor { animation: none; } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="460" fill="url(#bg)"/>
+    <rect width="1200" height="460" fill="url(#grid)"/>
+    <ellipse cx="950" cy="220" rx="320" ry="290" fill="url(#glow)"/>
+    <path d="M42 60H1158" stroke="#26343d"/>
+    <circle cx="46" cy="32" r="5" fill="#ff897e"/><circle cx="64" cy="32" r="5" fill="#f4cd75"/><circle cx="82" cy="32" r="5" fill="#baf57b"/>
+    <text x="107" y="37" class="mono" font-size="13" fill="#8ca2ae">~/hanjixin / personal-lab</text>
+    <text x="1155" y="37" text-anchor="end" class="mono" font-size="12" letter-spacing="2" fill="#7d969f">HELLO, WORLD_</text>
+    <text x="58" y="112" class="mono" font-size="13" letter-spacing="3" fill="#baf57b">BUILDER / EXPLORER / OPEN SOURCE</text>
+    <text x="52" y="222" class="sans" font-size="104" font-weight="750" letter-spacing="-6" fill="url(#ink)">hanjixin<tspan fill="#baf57b">.</tspan></text>
+    <text x="59" y="280" class="sans" font-size="28" font-weight="500" letter-spacing="-.5" fill="#e0e9ed">Agents, runtimes,</text>
+    <text x="59" y="318" class="sans" font-size="28" font-weight="500" letter-spacing="-.5" fill="#e0e9ed">and things worth building.</text>
+    <text x="59" y="375" class="mono" font-size="14" fill="#8ca2ae"><tspan fill="#baf57b">$</tspan> turn curiosity into working software</text>
+    <rect x="491" y="362" width="9" height="17" fill="#baf57b" class="cursor"/>
+    <g fill="none" stroke="#7fd5be">
+      <circle cx="940" cy="227" r="127" stroke-opacity=".20"/>
+      <circle cx="940" cy="227" r="157" stroke-opacity=".10" stroke-dasharray="2 9"/>
+      <ellipse cx="940" cy="227" rx="184" ry="67" transform="rotate(-35 940 227)" stroke-opacity=".25"/>
+      <ellipse cx="940" cy="227" rx="184" ry="67" transform="rotate(35 940 227)" stroke-opacity=".15"/>
+      <path d="M748 227h384M940 69v316" stroke-opacity=".07"/>
+    </g>
+    <g class="orbit">
+      <circle cx="940" cy="100" r="5" fill="#baf57b"/>
+      <circle cx="940" cy="100" r="12" fill="#baf57b" opacity=".12"/>
+      <circle cx="1050" cy="290" r="4" fill="#7ee7d0"/>
+      <circle cx="830" cy="290" r="4" fill="#ffad91"/>
+    </g>
+    <path d="M837 167l103 60 104-60M940 227v119" fill="none" stroke="#82d7bc" stroke-opacity=".3" stroke-dasharray="4 6"/>
+    <rect x="898" y="185" width="84" height="84" rx="22" fill="#112b2a" stroke="#6ff1c5" stroke-opacity=".6"/>
+    <path d="M925 212l-15 15 15 15m30-30 15 15-15 15m-10-36-11 42" fill="none" stroke="#baf57b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g class="mono" font-size="12" text-anchor="middle" letter-spacing="1.2">
+      <rect x="777" y="133" width="120" height="34" rx="17" fill="#12252a" stroke="#365650"/><text x="837" y="155" fill="#9fe6cd">AI AGENTS</text>
+      <rect x="994" y="133" width="112" height="34" rx="17" fill="#14212b" stroke="#364951"/><text x="1050" y="155" fill="#a6cfec">RUNTIMES</text>
+      <rect x="884" y="345" width="112" height="34" rx="17" fill="#252320" stroke="#504638"/><text x="940" y="367" fill="#e9c196">DEV TOOLS</text>
+    </g>
+    <path d="M42 413H1158" stroke="#26343d"/>
+    <text x="58" y="441" class="mono" font-size="12" letter-spacing="1" fill="#8ca2ae">TYPESCRIPT  /  RUST  /  PYTHON  /  REACT</text>
+    <text x="1142" y="441" text-anchor="end" class="mono" font-size="12" letter-spacing="1" fill="#baf57b">ALWAYS A WORK IN PROGRESS ↗</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="459" rx="22" fill="none" stroke="#2b3d44"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="250" viewBox="0 0 590 250" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Framework Book</title>
+  <desc id="desc">From the agent loop to memory, planning, tools, and collaboration. Built with Next.js / React / TypeScript.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111e27"/><stop offset="1" stop-color="#0c131c"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="589" height="249" rx="16" fill="url(#bg)" stroke="#2b3c46"/>
+  <path d="M27 1h55" stroke="#c6b3ff" stroke-width="2"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="28" y="38" font-family="Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#c6b3ff">04 / LEARN BY BUILDING</text>
+    <text x="27" y="91" font-size="29" font-weight="650" letter-spacing="-.8" fill="#edf6fa">Agent Framework Book</text>
+    <text x="29" y="132" font-size="19" fill="#a2b5c3">From the agent loop to memory,</text>
+    <text x="29" y="160" font-size="19" fill="#a2b5c3">planning, tools, and collaboration.</text>
+    <path d="M29 185h532" stroke="#263640"/>
+    <circle cx="34" cy="216" r="4" fill="#c6b3ff"/>
+    <text x="47" y="221" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#bacbd5">Next.js / React / TypeScript</text>
+    <text x="559" y="223" text-anchor="end" font-size="24" fill="#c6b3ff">↗</text>
+  </g>
+  <g transform="translate(505 53)" fill="none" stroke="#c6b3ff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity=".7"><path d="M25 12C16 5 6 8 6 8v28s10-3 19 4m0-28c9-7 19-4 19-4v28s-10-3-19 4V12Z"/></g>
+</svg>
